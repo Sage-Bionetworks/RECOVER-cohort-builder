@@ -1,5 +1,5 @@
 ########
-# Create a DRS manifest for RECOVER data to upload to CAVATIVA
+# Purpose: Create a DRS manifest for RECOVER data to upload to CAVATIVA
 # Currently testing code on Curated Pilot Data - syn53453677
 ########
 
@@ -55,7 +55,6 @@ write.csv(manifest_df,'drs_manifest.csv',row.names = FALSE)
 # We can export more columns in the manifest file, all of those
 # columns will be treated as annotations for the file 
 # https://docs.cavatica.org/docs/import-from-a-drs-server
-
 
 # Log into Cavatica and navigate to RECOVER test project
 # Click "Add files" and GA4GH DRS option
